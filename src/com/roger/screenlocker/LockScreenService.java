@@ -215,13 +215,14 @@ import org.json.JSONObject;
             
     
            mLayout = (SlidingUpPanelLayout) mFloatView.findViewById(R.id.lock_sliding_layout);
+           mLayout.setEnableDragViewTouchEvents(true);
            mLayout.setDragView(null);
            ArrayList<View> views = new ArrayList<View>();
            ImageView imageview= (ImageView)mFloatView.findViewById(R.id.imageview);
            views.add(imageview);
            mLayout.addTouchables(views);
            RelativeLayout upPannel = (RelativeLayout)mFloatView.findViewById(R.id.upPannel);
-           
+         
            mLayout.setDragView(mLayout);
            mLayout.setPanelSlideListener(new PanelSlideListener() {
                 @Override
@@ -249,7 +250,37 @@ import org.json.JSONObject;
 
                 }
             });
-  
+           
+           Button setting = (Button) mFloatView.findViewById(R.id.setting);
+           setting.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+				intent.setClass(getApplicationContext(),SettingActivity.class);
+				startActivity(intent);
+				windowManager.removeView(mFloatView);
+	            isShow = false;
+			
+			}
+        	   
+           });
+           Button wallpaper = (Button) mFloatView.findViewById(R.id.Wallpaper);
+           wallpaper.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+				intent.setClass(getApplicationContext(),WallpaperActivity.class);
+				startActivity(intent);
+				windowManager.removeView(mFloatView);
+	            isShow = false;
+			
+			}
+        	   
+           });
 
         SliderLayout mSliderLayout = (SliderLayout) mFloatView.findViewById(
                 R.id.sliderlayout);//滑动解锁

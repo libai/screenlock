@@ -38,8 +38,6 @@
         android:textSize="60sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
     <TextView
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/clock"
@@ -102,39 +100,54 @@
             android:focusable="false"
             android:id="@+id/upPannel"
             >
-
+	
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
                 android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/name"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="10dp"/>
-
-				<Button
-                    android:id="@+id/follow"
+			<Button
+                    android:id="@+id/Wallpaper"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textSize="14sp"
-                    android:gravity="center_vertical|right"
+                    android:gravity="center_vertical"
                     android:paddingRight="10dp"
-                    android:paddingLeft="10dp"/>
+                    android:paddingLeft="10dp"
+                    android:text="墙纸"
+                    />
+			<Button
+                    android:id="@+id/template"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="风格"
+                    />
+				<Button
+                    android:id="@+id/setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="设置"
+                    />
+				<Button
+                    android:id="@+id/luky"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="luky"
+                    />
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:scaleType="fitStart"
-                android:src="@drawable/graphic" >
-            </ImageView>
         </RelativeLayout>
         
 

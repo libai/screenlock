@@ -802,9 +802,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int umeng_update_wifi_disable=0x7f020034;
     }
     public static final class id {
+        public static final int Wallpaper=0x7f0c003e;
         public static final int about_linearlayout=0x7f0c0025;
-        public static final int action_settings=0x7f0c0051;
-        public static final int ad_image=0x7f0c0040;
+        public static final int action_settings=0x7f0c0053;
+        public static final int ad_image=0x7f0c0042;
         public static final int animated_logo=0x7f0c0023;
         public static final int animated_logo_fragment=0x7f0c0022;
         public static final int btn_cancel=0x7f0c0021;
@@ -832,7 +833,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int date=0x7f0c003b;
         public static final int demo_view_container=0x7f0c0018;
         public static final int drawer_layout=0x7f0c000d;
-        public static final int follow=0x7f0c003f;
         public static final int frame_init=0x7f0c000e;
         public static final int fullscreen=0x7f0c0002;
         public static final int gestureLockView=0x7f0c002e;
@@ -841,13 +841,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int linear=0x7f0c000b;
         public static final int lock_sliding_layout=0x7f0c0038;
         public static final int logo_subtitle=0x7f0c0024;
+        public static final int luky=0x7f0c0041;
         public static final int mMatchTextView=0x7f0c001d;
         public static final int margin=0x7f0c0003;
         public static final int mask=0x7f0c002a;
         public static final int matchview=0x7f0c001c;
         public static final int menu_frame=0x7f0c0010;
         public static final int missview=0x7f0c0019;
-        public static final int name=0x7f0c003e;
         public static final int none=0x7f0c0004;
         public static final int open=0x7f0c001b;
         public static final int pop_layout=0x7f0c001e;
@@ -855,9 +855,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int restart=0x7f0c0005;
         public static final int reverse=0x7f0c0006;
         public static final int right=0x7f0c0001;
+        public static final int setting=0x7f0c0040;
         public static final int shimmer_view_container=0x7f0c0012;
         public static final int sliderlayout=0x7f0c003c;
         public static final int spinner1=0x7f0c0031;
+        public static final int template=0x7f0c003f;
         public static final int text_init1=0x7f0c0013;
         public static final int text_init2=0x7f0c0015;
         public static final int text_init3=0x7f0c0016;
@@ -866,22 +868,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tv_content=0x7f0c0036;
         public static final int tv_image=0x7f0c0035;
         public static final int tv_linear=0x7f0c0034;
-        public static final int umeng_common_icon_view=0x7f0c0041;
-        public static final int umeng_common_notification=0x7f0c0045;
-        public static final int umeng_common_notification_controller=0x7f0c0042;
-        public static final int umeng_common_progress_bar=0x7f0c0048;
-        public static final int umeng_common_progress_text=0x7f0c0047;
-        public static final int umeng_common_rich_notification_cancel=0x7f0c0044;
-        public static final int umeng_common_rich_notification_continue=0x7f0c0043;
-        public static final int umeng_common_title=0x7f0c0046;
-        public static final int umeng_update_content=0x7f0c004c;
-        public static final int umeng_update_frame=0x7f0c0049;
-        public static final int umeng_update_id_cancel=0x7f0c004f;
-        public static final int umeng_update_id_check=0x7f0c004d;
-        public static final int umeng_update_id_close=0x7f0c004b;
-        public static final int umeng_update_id_ignore=0x7f0c0050;
-        public static final int umeng_update_id_ok=0x7f0c004e;
-        public static final int umeng_update_wifi_indicator=0x7f0c004a;
+        public static final int umeng_common_icon_view=0x7f0c0043;
+        public static final int umeng_common_notification=0x7f0c0047;
+        public static final int umeng_common_notification_controller=0x7f0c0044;
+        public static final int umeng_common_progress_bar=0x7f0c004a;
+        public static final int umeng_common_progress_text=0x7f0c0049;
+        public static final int umeng_common_rich_notification_cancel=0x7f0c0046;
+        public static final int umeng_common_rich_notification_continue=0x7f0c0045;
+        public static final int umeng_common_title=0x7f0c0048;
+        public static final int umeng_update_content=0x7f0c004e;
+        public static final int umeng_update_frame=0x7f0c004b;
+        public static final int umeng_update_id_cancel=0x7f0c0051;
+        public static final int umeng_update_id_check=0x7f0c004f;
+        public static final int umeng_update_id_close=0x7f0c004d;
+        public static final int umeng_update_id_ignore=0x7f0c0052;
+        public static final int umeng_update_id_ok=0x7f0c0050;
+        public static final int umeng_update_wifi_indicator=0x7f0c004c;
         public static final int upPannel=0x7f0c003d;
         public static final int xListView=0x7f0c0033;
     }
